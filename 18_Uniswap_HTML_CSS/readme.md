@@ -14,9 +14,9 @@ WTF CSS教程，总结/搬运自[MDN CSS教程](https://developer.mozilla.org/zh
 
 ![总体效果](./img/18-1.png)
 
-**注意**：本讲所用的HTML内容在之前的基础上做了略微的调整，想要练习的学员请下载本讲中最新的文件
+**注意**：本讲所用的HTML内容在之前的基础上做了略微的调整，想要练习的学员请下载本讲中最新的文件和媒体资源
 
-## background
+## 通用样式
 
 首先我们设置超链接和背景的样式
 
@@ -201,7 +201,7 @@ header {
 
 我们先将`class="body"`的`margin-top`调整为`80px`，将它与头部分开。
 
-然后是`swap-page`的样式，`position`修改为`relative`后，要同时调整`left`和`margin-left`才能让它水平居中(`margin-left`为元素宽度的一般，否则会让它左边居中)
+然后是`swap-page`的样式，`position`修改为`relative`后，要同时调整`left`和`margin-left`才能让它水平居中(`margin-left`为元素宽度的一半，否则会让它左边居中)
 
 `padding`也需要给它赋值，让`swap-page`与它的子元素分开。
 
